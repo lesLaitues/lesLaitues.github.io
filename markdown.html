@@ -4,7 +4,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Hello, world! — Tomato demo website</title>
+		<title>Markdown — Tomato demo website</title>
 		<link rel="stylesheet" type="text/css" href="./assets/style.css">
 	</head>
 	<body>
@@ -40,7 +40,7 @@
 </ul>
 </div>
 			<ul>
-				<li><a class="active" href="./index.html"></a></li>
+				<li><a  href="./index.html"></a></li>
 				
 					
 						<li><a  href="./about.html">About</a></li>
@@ -49,7 +49,7 @@
 					
 				
 					
-						<li><a  href="./markdown.html">Markdown</a></li>
+						<li><a class="active" href="./markdown.html">Markdown</a></li>
 					
 				
 				
@@ -65,19 +65,23 @@
 			<aside>
 				<h2>Page</h2>
 				<p>
-					<a href="./index.html"></a>
+					<a href="./index.html"></a> &gt; <a href="./markdown.html">Markdown</a>
 				</p>
 				<address><a href="mailto:quentin.ribac@gmail.com">Quentin Ribac</a></address>
-				<time>2018-05-18</time>
+				<time>2018-05-19</time>
 				<ul class="tags">
 				
-					<li><a href="./tag/blog.html">blog</a></li>
+					<li><a href="./tag/help.html">help</a></li>
 				
 				</ul>
 
 				<hr>
 				<h2>All tags</h2>
 				<ul class="tags">
+				
+					<li><a href="./tag/meta.html">meta</a></li>
+				
+					<li><a href="./tag/help.html">help</a></li>
 				
 					<li><a href="./tag/project.html">project</a></li>
 				
@@ -87,13 +91,9 @@
 				
 					<li><a href="./tag/blog.html">blog</a></li>
 				
-					<li><a href="./tag/meta.html">meta</a></li>
-				
-					<li><a href="./tag/reosal.html">reosal</a></li>
-				
 					<li><a href="./tag/art.html">art</a></li>
 				
-					<li><a href="./tag/help.html">help</a></li>
+					<li><a href="./tag/reosal.html">reosal</a></li>
 				
 					<li><a href="./tag/code.html">code</a></li>
 				
@@ -121,11 +121,90 @@
 
 			</aside>
 			<section>
-<h1>Hello, world!</h1>
+<h1>Markdown</h1>
 
-<p>This is a statically generated website using <a href="https://github.com/ribacq/tomato">Tomato</a>, a piece of software I wrote in <a href="https://golang.org">Go</a>.</p>
+<p><a href="https://daringfireball.net/projects/markdown">Markdown</a> is a simple syntax that allows to do many things:</p>
 
-<p>If you need help with the syntax, <a href="./markdown.html">there is help</a>.</p>
+<h3>Titles</h3>
+
+<p><em>emphasis</em>, <strong>strong emphasis</strong>, <a href="https://reddit.com/">links</a>, footnotes<sup class="footnote-ref" id="fnref:I-am-a-footnote"><a rel="footnote" href="#fn:I-am-a-footnote">1</a></sup>. Images:</p>
+
+<p><img src="./media/img/cat.jpg" alt="a magnificient cat" /></p>
+
+<p>Inline <code>code</code>.</p>
+
+<pre><code class="language-bash">echo &quot;code ${blocks}&quot;
+</code></pre>
+
+<p>You can use inline <abbr title="HyperText Markup Language">HTML</abbr>.</p>
+
+<p>Horizontal rules:</p>
+
+<hr>
+
+<p>Lists:</p>
+
+<ul>
+<li>alpha</li>
+<li>beta
+
+<ul>
+<li>gamma</li>
+</ul></li>
+<li>delta</li>
+</ul>
+
+<p>Ordered lists:</p>
+
+<ol>
+<li>Alice</li>
+<li>Bob
+
+<ol>
+<li>Charlie</li>
+</ol></li>
+<li>Denis</li>
+</ol>
+
+<p>Tables:</p>
+
+<table>
+<thead>
+<tr>
+<th>Header</th>
+<th>Cells</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>content 1</td>
+<td>content 2</td>
+</tr>
+
+<tr>
+<td>content 3</td>
+<td>content 4</td>
+</tr>
+</tbody>
+</table>
+<p>Blockquotes:</p>
+
+<blockquote>
+<p>Hello</p>
+
+<p>I would like to know how to use markdown.</p>
+</blockquote>
+
+<div class="footnotes">
+
+<hr>
+
+<ol>
+<li id="fn:I-am-a-footnote">I am a <em>footnote</em>!</li>
+</ol>
+
+</div>
 
 				<div id="disqus_thread"></div>
 				<script>
@@ -134,9 +213,9 @@
 				LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
 				*/
 				var disqus_config = function () {
-					this.page.url = 'https://ribacq.github.io/tomato/index.html';  // Replace PAGE_URL with your page's canonical URL variable
-					this.page.identifier = '/index.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-					this.page.title = 'Hello, world!';
+					this.page.url = 'https://ribacq.github.io/tomato/markdown.html';  // Replace PAGE_URL with your page's canonical URL variable
+					this.page.identifier = '/markdown.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+					this.page.title = 'Markdown';
 				};
 				(function() { // DON'T EDIT BELOW THIS LINE
 					var d = document, s = d.createElement('script');
