@@ -1,15 +1,12 @@
-dist: trusty
-sudo: false
+language: go
 
-before_install:
-  - gimme -f 1.8.3
-  - go version
+go:
+  - "1.10.x"
 
 install:
   - go get github.com/ribacq/tomato
 
 script:
-  - ls
   - mv * laitues
   - tomato laitues
 
