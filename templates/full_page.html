@@ -1,0 +1,102 @@
+{{ define "Header" }}
+{{ $page := .Page }}
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>{{ .Page.Title }} — {{ .Siteinfo.Title }}</title>
+		<link rel="stylesheet" type="text/css" href="{{ .Page.PathToRoot }}/assets/style.css">
+	</head>
+	<body>
+		<header>
+			<h1><a href="{{ .Page.PathToRoot }}/index.html" id="top">{{ .Siteinfo.Title }}</a></h1>
+			<div id="subtitle">{{ .Siteinfo.SubtitleHelper .Page }}</div>
+		</header>
+		<nav>
+			<div class="flowing-menu">{{ .Tree.NavHelper .Page true }}</div>
+			<ul>
+				<li><a {{ if eq .Page.Path "/index.html" }}class="active"{{ end }} href="{{ .Page.PathToRoot }}{{ .Tree.Path }}index.html">{{ .Tree.Name }}</a></li>
+				{{ range .Tree.Pages }}
+					{{ if ne .Basename "index" }}
+						<li><a {{ if eq $page.Path .Path }}class="active"{{ end }} href="{{ $page.PathToRoot }}{{ .Path }}">{{ .Title }}</a></li>
+					{{ end }}
+				{{ end }}
+				{{ range .Tree.SubCategories }}
+					<li><a {{ if eq $page.Category.Path .Path }}class="active"{{ end }} href="{{ $page.PathToRoot }}{{ .Path }}index.html">{{ .Name }}</a></li>
+				{{ end }}
+			</ul>
+		</nav>
+		<main>
+			<aside>
+				<h2>Page</h2>
+				<p>
+					{{ .Page.PathHelper .Page }}
+				</p>
+				{{ .Page.Author.Helper }}
+				<time>{{ .Page.Date }}</time>
+				<ul class="tags">
+				{{ range .Page.Tags }}
+					<li><a href="{{ $page.PathToRoot }}/tag/{{ . }}.html">{{ . }}</a></li>
+				{{ end }}
+				</ul>
+
+				<hr>
+				<h2>All tags</h2>
+				<ul class="tags">
+				{{ range .Tree.Tags }}
+					<li><a href="{{ $page.PathToRoot }}/tag/{{ . }}.html">{{ . }}</a></li>
+				{{ end }}
+				</ul>
+
+				<hr>
+				<h2>Recent pages</h2>
+				<ul>
+				{{ range .Tree.RecentPages 5 }}	
+					<li><a href="{{ $page.PathToRoot }}{{ .Path }}">{{ .Title }}</a> ({{ .Date }})</li>
+				{{ end }}
+				</ul>
+				
+				<hr>
+				<h2>About</h2>
+				{{ .Siteinfo.DescriptionHelper .Page }}
+			</aside>
+			<section>
+{{ end }}
+{{ define "Footer" }}
+				<div id="disqus_thread"></div>
+				<script>
+				/*
+				RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+				LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+				*/
+				var disqus_config = function () {
+					this.page.url = 'https://ribacq.github.io/tomato{{ .Page.Path }}';  // Replace PAGE_URL with your page's canonical URL variable
+					this.page.identifier = '{{ .Page.Path }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+					this.page.title = '{{ .Page.Title }}';
+				};
+				(function() { // DON'T EDIT BELOW THIS LINE
+					var d = document, s = d.createElement('script');
+					s.src = 'https://tomatogen.disqus.com/embed.js';
+					s.setAttribute('data-timestamp', +new Date());
+					(d.head || d.body).appendChild(s);
+				})();
+				</script>
+				<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+			</section>
+		</main>
+		<footer>
+			{{ .Siteinfo.MainAuthorHelper }}
+			{{ .Siteinfo.CopyrightHelper .Page }}
+			<p>
+				<a href="https://github.com/ribacq/tomato">Statically generated with Tomato</a>
+			</p>
+			<p>
+				<a href="#top">Back to top</a>
+			</p>
+		</footer>
+		<!-- load JS -->
+		<script type="text/javascript" src="{{ .Page.PathToRoot }}/assets/main.js"><p>Sorry, you do not have Javascript enabled.</p></script>
+		<script id="dsq-count-scr" src="//tomatogen.disqus.com/count.js" async></script>
+	</body>
+</html>
+{{ end }}
