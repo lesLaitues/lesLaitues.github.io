@@ -1,5 +1,5 @@
 install:
-  - go install github.com/ribacq/tomato
+  - go get github.com/ribacq/tomato
 
 script:
   - ls
