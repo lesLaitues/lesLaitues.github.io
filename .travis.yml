@@ -1,6 +1,6 @@
 install:
   - go install github.com/ribacq/tomato
-	
+
 script:
   - ls
   - mv * laitues
