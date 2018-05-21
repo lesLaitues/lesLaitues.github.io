@@ -3,11 +3,13 @@ sudo: false
 
 before_install:
   - gimme 1.8.3
+  - go version
 
 install:
   - go version
+  - gimme 1.8.3
   - ls
-  - gimmer wat
+  - gimme -l
   - go get github.com/ribacq/tomato
 
 script:
