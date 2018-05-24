@@ -1,12 +1,12 @@
 #!author: Quentin Ribac
-#!date: 2018-05-18
+#!date: 2018-05-24
 #!tags: blog
 
 # Laitues
-This is a statically generated website using [Tomato](https://github.com/ribacq/tomato), a piece of software I wrote in [Go](https://golang.org).
+Ceci est un site statique généré par [Tomato](https://github.com/ribacq/tomato), un logiciel écrit en [Go](https://golang.org) par [Quentin Ribac](https://github.com/ribacq).
 
-If you need help with the syntax, [there is help](/markdown.html).
+Il utilise [Markdown](/markdown.html) pour la syntaxe des pages.
 
-Une joli photographie:
+Une jolie photographie:
 
 !![laitues](/media/img/laitues.jpg)
