@@ -1,4 +1,4 @@
-#!author: Jirsad
+#!author: Quentin Ribac
 #!date: 2018-05-03
 #!tags: art, reosal
 
