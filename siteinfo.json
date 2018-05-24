@@ -1,17 +1,16 @@
 {
-	"name": "Home",
-	"title": "Tomato demo website",
-	"subtitle": "Who doesn’t enjoy a tomato with lettuce?",
-	"description": "This website is a demonstration of the capacities of *tomato*.",
-	"copyright": "This website’s content is under [CC0](https://creativecommons.org/publicdomain/zero/1.0) license.",
+	"title": "Laitues, le blog",
+	"subtitle": "Le blog qui ne raconte pas que des salades",
+	"description": "Bienvenue sur le site web des laitues ! Nous sommes un groupe formé de *Johyn Papin* et *Quentin Ribac*, étudiants français en informatique.",
+	"copyright": "Le contenu de ce site est placé sous licence [CC0](https://creativecommons.org/publicdomain/zero/1.0).",
 	"authors": [
 		{
 			"name": "Quentin Ribac",
 			"email": "quentin.ribac@gmail.com"
 		},
 		{
-			"name": "Jirsad",
-			"email": "jirsad-ioh@mailoo.org"
+			"name": "Johyn Papin",
+			"email": "johynpapin@protonmail.com"
 		}
 	]
 }
