@@ -8,7 +8,7 @@
 ### Titles
 *emphasis*, **strong emphasis**, [links](https://reddit.com/), footnotes^[I am a *footnote*!]. Images:
 
-![a magnificient cat](/media/img/cat.jpg)
+!![a magnificient cat](/media/img/cat.jpg)
 
 Inline `code`.
 
