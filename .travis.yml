@@ -8,6 +8,7 @@ install:
 
 script:
   - tomato .
+  - cp CNAME ._html
 
 deploy:
   provider: pages
