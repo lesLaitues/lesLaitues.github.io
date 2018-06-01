@@ -9,6 +9,7 @@ Cette page regroupe la liste des idées d’articles pouvant être écrits sur l
 
 ## Quentin Ribac
 * des trucs sur la grammaire et l’orthographe du français
+* faire absolument un truc avec la commande `\typein[\cmd]{msg}` en *LaTeX*
 
 ## Commun
 * la programmation est-elle un art ?
