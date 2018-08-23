@@ -3,10 +3,8 @@
 #!tags: blog
 
 # Laitues
-Ceci est un site statique généré par [Tomato](https://github.com/ribacq/tomato), un logiciel écrit en [Go](https://golang.org) par [Quentin Ribac](https://github.com/ribacq).
+{{ template "PageList" . }}
 
-Il utilise [Markdown](/markdown.html) pour la syntaxe des pages.
-
-Une jolie photographie:
+Une laitue pour votre plus grand plaisir :
 
 !![laitues](/media/img/laitues.jpg)
