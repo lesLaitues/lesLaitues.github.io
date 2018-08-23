@@ -72,7 +72,7 @@ We have considered the fact that one must be initiated to grasp what is meant by
 Speaking of the "expert's eye", here is another problem: only coders read each other's code, so the code itself as an art is a niche market. 
 Moreover, one will agree that it is rather difficult to convey emotions such as joy, anger, envy, or sadness with programming: 
 
-> Johyn says, "You can't really transmit a message through source code. » 
+> Johyn says, "You can't really transmit a message through source code."
 
 It is at this moment that Quentin brings an example: a random alchemy circle generator, coded in C# and PHP (see *Sources* below). We agree that this program is artistic, but where does art reside? 
 
