@@ -1,4 +1,4 @@
-#!author: Quentin Ribac
+#!author: Johyn Papin, Quentin Ribac
 #!date: 2018-05-31
 #!tags: blog
 
