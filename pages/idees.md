@@ -1,4 +1,4 @@
-#!author: Quentin Ribac
+#!author: Johyn Papin, Quentin Ribac
 #!date: 2018-05-31
 #!tags: blog
 
@@ -14,4 +14,5 @@ Cette page regroupe la liste des idées d’articles pouvant être écrits sur l
 * faire absolument un truc avec la commande `\typein[\cmd]{msg}` en *LaTeX*
 
 ## Commun
-* [fait] la programmation est-elle un art ?
+* Gestionnaires de fenêtres : i3wm VS dwm
+* [fait le 2018-08-23] la programmation est-elle un art ?
