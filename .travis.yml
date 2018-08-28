@@ -14,7 +14,7 @@ deploy:
   provider: pages
   local-dir: ._html
   target-branch: master
-  skip-cleanup: false
+  skip-cleanup: true
   github-token: $GITHUB_TOKEN
   keep-history: true
   on:
