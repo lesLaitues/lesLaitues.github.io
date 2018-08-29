@@ -9,7 +9,7 @@ Cette page regroupe la liste des idées d’articles pouvant être écrits sur l
 * les aventures du conférencier Johyn Papin
 * des petits articles en japonais pour m’entraîner
 * les idées reçues sur le Japon et ses habitants
-* une série d’article sur NOISE (un DAW que je code)
+* une série d’articles sur NOISE (un DAW que je code)
 
 ## Quentin Ribac
 * règles de JdR en une page
