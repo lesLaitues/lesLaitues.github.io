@@ -9,7 +9,7 @@ And more precisely, the question of the artistic interest of our own field of st
 
 ****** 
 
-Our discussion began with a comment from Quentin saying that no, meme are no art at all. 
+Our discussion began with a comment from Quentin saying that no, memes are no art at all. 
 And that's when Johyn asked if programming was. 
 
 ![My code doesn’t work… let’s change nothing and run it again.](/media/img/2018/08/23-proghumormeme.jpg) [&rarr; r/ProgrammerHumor](https://reddit.com/r/programmerhumor)
