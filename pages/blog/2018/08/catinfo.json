@@ -1,1 +1,4 @@
-{ "name": "08/Août" }
+{
+	"fr": { "name": "08/Août" },
+	"en": { "name": "08/August" }
+}
