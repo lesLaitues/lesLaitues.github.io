@@ -18,4 +18,5 @@ Cette page regroupe la liste des idées d’articles pouvant être écrits sur l
 
 ## Commun
 * Gestionnaires de fenêtres : i3wm VS dwm
+* Nos plantes : Maggie, Spencer, etc. (parce que *Laitues* quand même)
 * [fait le 2018-08-23] la programmation est-elle un art ?
