@@ -1,7 +1,6 @@
 #!date: 2018-09-06
 #!author: Quentin Ribac
 #!tags: jdr, jeu
-#!draft
 
 # Un JdR en une page
 Salut ! Pour cet article je vais parler d’une de mes activités préférées, le jeu de rôle papier, et des règles que j’ai écrites pour être simples, équilibrées et tenir en une page.
