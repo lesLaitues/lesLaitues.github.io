@@ -1,6 +1,7 @@
 #!date: 2018-09-06
 #!author: Quentin Ribac
 #!tags: rpg, game
+#!draft
 
 # A one-page RPG
 Hello! For this article I am going to write about one of my favorite activities, tabletop roleplaying game, and about the rules I wrote to be concise, balanced and to fit on one page.
