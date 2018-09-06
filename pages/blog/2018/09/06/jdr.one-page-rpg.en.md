@@ -63,7 +63,7 @@ So here I go with some ideas gathered over the years.
 * **6-sided and 20-sided dices** (D6 and D20 in the jargon) will be needed to play, it’s a small investment, but it’s much funnier I think;
 * The characters **do not gain levels**, they spend their experience points to evolve their characters.
 
-These rules also fit on one single page, and are available in French and English. The character sheet was also produced and translated by yours faithfully.
+These rules also fit on one single page, and are available in French and English. The character sheet was also produced and translated by yours truly.
 
 The system was tested to this day in one single game session, for which I was the DM, and it went rather well. I would also like to know how it goes during a campaign, that is, several games following each other, to see how the characters evolve.
 
