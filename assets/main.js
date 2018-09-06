@@ -3,11 +3,11 @@ console.log('Visit https://github.com/ribacq/tomato')
 
 // toggle class overlay-media on images in section on click
 for (img of document.querySelectorAll('section img')) {
-	img.onclick = function() {
-		if (img.classList.contains('overlay-media')) {
-			img.classList.remove('overlay-media')
+	img.onclick = function(e) {
+		if (e.target.classList.contains('overlay-media')) {
+			e.target.classList.remove('overlay-media')
 		} else {
-			img.classList.add('overlay-media')
+			e.target.classList.add('overlay-media')
 		}
 	}
 }
