@@ -72,7 +72,7 @@ The system was tested to this day in one single game session, for which I was th
 * [English rules](/media/files/jdr/rpg-20180826.pdf) (version from 26 Aug. 2018)
 * [English character sheet](/media/files/jdr/characterSheet-20180816.pdf) (version from 16 Aug. 2018)
 * [French rules](/media/files/jdr/jdr-20180826.pdf) (version from 26 Aug. 2018)
-* [French character sheet](/media/files/fichePerso-20180816.pdf) (version from 16 Aug. 2018)
+* [French character sheet](/media/files/jdr/fichePerso-20180816.pdf) (version from 16 Aug. 2018)
 
 ## Possible improvements
 There are still some things that need some work. I would for instance like to find a system in which a character’s death will allow them to come back quickly in the game, maybe they just fainted when their HP reach 0? There may be a need for a real list of skills and basic spells. And lastly, I would like to create a list of playable races, just to prevent the case of everyone being human, but without having the classic elf and dwarf.
