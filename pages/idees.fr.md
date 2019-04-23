@@ -12,9 +12,10 @@ Cette page regroupe la liste des idées d’articles pouvant être écrits sur l
 * une série d’articles sur NOISE (un DAW que je code)
 
 ## Quentin Ribac
-* règles de JdR en une page
+* [fait le 2018-09-06] règles de JdR en une page
 * des trucs sur la grammaire et l’orthographe du français
 * faire absolument un truc avec la commande `\typein[\cmd]{msg}` en *LaTeX*
+* nvl00 - space punk
 
 ## Commun
 * Gestionnaires de fenêtres : i3wm VS dwm
