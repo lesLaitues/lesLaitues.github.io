@@ -6,7 +6,7 @@
 
 A brand-new spaceship underequipped “for style”, the engineer, the boss’ son, the young cook… going from space station K50 to X42. Will they reach their destination without getting lost in interstellar void? Is human society threatened from the outside or the inside?
 
-[—> Read the short story (PDF)](/media/files/short00_spacepunk_20190508.pdf)
+[—> Read the short story (PDF)](/media/files/short00_spacepunk_20190508.en.pdf)
 
 (X42 is much larger than the ISS.)
 
