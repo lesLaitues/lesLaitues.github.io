@@ -6,7 +6,7 @@
 
 Un vaisseau spatial neuf et sous-équipé « pour le style », l’ingénieure, le fils du patron, la jeune cuisinière… pour aller de la station spatiale K50 jusqu’à X42. Arriveront-ils au bout sans se perdre dans le vide interstellaire ? La société humaine est-elle menacée par l’extérieur ou par l’intérieur ?
 
-[—> Lire la nouvelle (PDF)](/media/files/nvl00_spacepunk_20181212.pdf)
+[—> Lire la nouvelle (PDF)](/media/files/nvl00_spacepunk_20181212.fr.pdf)
 
 (X42 est bien plus grande que l’ISS.)
 
@@ -24,4 +24,4 @@ Mais il serait malhonnête de ne pas mentionner le rôle de l’honorable **Johy
 
 Maintenant, si vous vouliez bien suivre Georges Felmort et sa bande dans leur petite aventure, j’en serais comblé.
 
-[—> Lire la nouvelle (PDF)](/media/files/nvl00_spacepunk_20181212.pdf)
+[—> Lire la nouvelle (PDF)](/media/files/nvl00_spacepunk_20181212.fr.pdf)
