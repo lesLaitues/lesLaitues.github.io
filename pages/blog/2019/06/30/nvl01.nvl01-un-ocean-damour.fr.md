@@ -2,12 +2,12 @@
 #!date: 2019-06-30
 #!tags: art, écriture, conte, romance
 
-# Nouvelle 01 — L’Océan qui pleurait
+# Nouvelle 01 — Un Océan d’Amour
 « Il était une fois, sur une île lointaine, l’Amour vivant avec l’Océan. »
 
 Imaginez être plongé dans la même vie merveilleuse, tous les jours, quand soudain, ce que vous chérissez le plus semble vous quitter.
 
-[—> Lire la nouvelle (PDF)](/media/files/nvl01_locean_qui_pleurait_20190620.fr.pdf)
+[—> Lire la nouvelle (PDF)](/media/files/nvl01_un_ocean_damour_20190620.fr.pdf)
 
 !![La plus belle île du monde](/media/img/2019/06/island.jpg)
 
@@ -17,7 +17,7 @@ Pour éviter de dévoiler le contenu de cette courte histoire, je ne peux ici me
 
 Le seul problème éventuel, cela dit, pourrait être que dans cela, je n’ai pas souhaiter faire passer un message, ni à donner un sens profond. Je voulais simplement écrire quelque chose qui soit beau d’une manière romantique et magique.
 
-[—> Lire la nouvelle (PDF)](/media/files/nvl01_locean_qui_pleurait_20190620.fr.pdf)
+[—> Lire la nouvelle (PDF)](/media/files/nvl01_un_ocean_damour_20190620.fr.pdf)
 
 Maintenant que ceci est écrit, qu’est-ce qui nous attend ? Il reste à paraître un nouvel article de Johyn à propos de son projet NOISE (lisez [le premier article ici](/blog/2018/09/06/noise-partie-1-la-polyphonie.html), on espère que le suivant sera traduit en anglais è_é). Quant à moi, je vais à dorénavant tenter d’écrire quelques scènes-tests et un plan pour un roman ! Ce projet traîne dans le dossier de mon ordinateur, et dans mon carnet, depuis maintenant plusieurs mois. Ce serait le récit de la famille *Mustaphe*, habitant en France, en 2019. Pour rendre la chose plus intéressante, il sera question de romance, de rêve à poursuivre, et de photographies de ruines, prises illégalement. En ce moment la première des possibles scènes est en cours de griffonnage, et j’ai hâte de l’avoir terminée pour pouvoir récolter quelques opinions à son propos.
 
@@ -25,4 +25,4 @@ Merci de vous être arrêté sur **Laitues**, bonne lecture, et n’hésitez pas
 
 {{ (index .Page.Authors 0).Helper }}
 
-P.S. : la V.O. est sur [la version anglaise de cet article](/en/blog/2019/06/30/short01-the-weeping-ocean.html) !
+P.S. : la V.O. est sur [la version anglaise de cet article](/en/blog/2019/06/30/short01-an-ocean-of-love.html) !
