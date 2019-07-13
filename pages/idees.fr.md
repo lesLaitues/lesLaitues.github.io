@@ -15,9 +15,12 @@ Cette page regroupe la liste des idées d’articles pouvant être écrits sur l
 * [fait le 2018-09-06] règles de JdR en une page
 * des trucs sur la grammaire et l’orthographe du français
 * faire absolument un truc avec la commande `\typein[\cmd]{msg}` en *LaTeX*
-* nvl00 - space punk
+* [fait le 2019-04-23] nvl00 - space punk
+* [fait le 2019-06-30] nvl01 - an ocean of love
 
 ## Commun
 * Gestionnaires de fenêtres : i3wm VS dwm
 * Nos plantes : Maggie, Spencer, etc. (parce que *Laitues* quand même)
 * [fait le 2018-08-23] la programmation est-elle un art ?
+
+{{ template "Comments" . }}

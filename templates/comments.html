@@ -1,0 +1,11 @@
+{{ define "Comments" }}
+	<hr>
+	<script
+		src="https://comments.laitues.net/js/embed.min.js"
+		data-isso="https://comments.laitues.net/"
+		data-isso-id="{{ .Page.Path }}"
+		data-isso-lang="{{ .Locale }}"
+		data-isso-require-author="true"
+	></script>
+	<section id="isso-thread"></section>
+{{ end }}
