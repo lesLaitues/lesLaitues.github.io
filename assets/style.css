@@ -335,4 +335,6 @@ span.mozzarella-comment-date {
 	font-style: italic;
 }
 
-div.mozzarella-comment-content {}
+div.mozzarella-comment-content > p:first-child {
+	margin-top: 0;
+}
