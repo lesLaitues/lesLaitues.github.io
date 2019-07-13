@@ -1,6 +1,7 @@
 #!author: Johyn Papin, Quentin Ribac
 #!date: 2019-07-13
 #!tags: commentaires, mozzarella, sondage, blog
+#!short-summary: Un sondage pour récolter votre opinion sur les Laitues.
 
 # Que pensez-vous des Laitues ?
 

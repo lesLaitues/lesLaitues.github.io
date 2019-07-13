@@ -1,6 +1,7 @@
 #!author: Johyn Papin, Quentin Ribac
 #!date: 2019-07-13
 #!tags: comments, mozzarella, poll, blog
+#!short-summary: A poll about your opinion of Lettuces.
 
 # What do you think of lettuces?
 
