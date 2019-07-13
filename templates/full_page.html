@@ -14,6 +14,11 @@
 		<link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss@1.0.1/build/grids-responsive-min.css">
 		<link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss@1.0.1/build/buttons-min.css">
 		<link rel="stylesheet" type="text/css" href="{{ join $pathToRoot "/assets/style.css" }}">
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:site" content="https://laitues.net" />
+		<meta name="twitter:title" content="{{ .Page.Title }}" />
+		<meta name="twitter:description" content="" />
+		{{ with .Page.PathToFeaturedImage }}<meta name="twitter:image" content="{{ . }}" />{{ end }}
 	</head>
 	<body>
 		<header {{ if .Page.PathToFeaturedImage }}style="background-image: url('{{ join $pathToRoot .Page.PathToFeaturedImage }}')"{{ end }}>
