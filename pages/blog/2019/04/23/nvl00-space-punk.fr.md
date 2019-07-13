@@ -27,3 +27,5 @@ Maintenant, si vous vouliez bien suivre Georges Felmort et sa bande dans leur pe
 [—> Lire la nouvelle (PDF)](/media/files/nvl00_spacepunk_20181212.fr.pdf)
 
 Et si ça vous dit, il y a maintenant une traduction anglaise ! [—> C’est par là !](/en/blog/2019/05/10/short00-space-punk.html)
+
+{{ template "Comments" . }}

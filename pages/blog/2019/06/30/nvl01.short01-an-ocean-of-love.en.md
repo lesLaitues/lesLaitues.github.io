@@ -26,3 +26,5 @@ Thanks for stopping by on **Laitues**, have a good read, and drop me an email by
 {{ (index .Page.Authors 0).Helper }}
 
 P.S.: You may or may not have noticed, but the French version of the short story is available on [the translated version of this article](/blog/2019/06/30/nvl01-un-ocean-damour.html)!
+
+{{ template "Comments" . }}

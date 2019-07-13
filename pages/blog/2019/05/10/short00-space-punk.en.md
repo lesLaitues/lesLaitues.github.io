@@ -25,3 +25,5 @@ But I would be quite dishonest if I did not mention the importance of honorable 
 Well now, if you would follow Georges Felmort and his crew on their journey, I would be very glad.
 
 [—> Read the short story (PDF)](/media/files/short00_spacepunk_20190508.en.pdf)
+
+{{ template "Comments" . }}

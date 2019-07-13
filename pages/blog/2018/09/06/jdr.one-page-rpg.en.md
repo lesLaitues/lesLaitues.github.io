@@ -78,3 +78,5 @@ The system was tested to this day in one single game session, for which I was th
 There are still some things that need some work. I would for instance like to find a system in which a character’s death will allow them to come back quickly in the game, maybe they just fainted when their HP reach 0? There may be a need for a real list of skills and basic spells. And lastly, I would like to create a list of playable races, just to prevent the case of everyone being human, but without having the classic elf and dwarf.
 
 With some luck this can be a work of multiple people (notice how it’s written ‘public domain) at the bottom of the rules), so if you have the tiniest remark do not hesitatet to email me via the link on the top-left menu. A comment system is scheduled to arrive on this blog, but as for now, mails will have to do.
+
+{{ template "Comments" . }}

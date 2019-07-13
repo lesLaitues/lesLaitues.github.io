@@ -8,3 +8,5 @@ Contactez les auteurs ici :
 {{ range .Siteinfo.Authors }}
 	{{ .Helper }}
 {{ end }}
+
+{{ template "Comments" . }}

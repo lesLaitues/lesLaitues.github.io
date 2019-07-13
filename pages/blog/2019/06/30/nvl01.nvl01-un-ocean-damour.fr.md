@@ -26,3 +26,5 @@ Merci de vous être arrêté sur **Laitues**, bonne lecture, et n’hésitez pas
 {{ (index .Page.Authors 0).Helper }}
 
 P.S. : la V.O. est sur [la version anglaise de cet article](/en/blog/2019/06/30/short01-an-ocean-of-love.html) !
+
+{{ template "Comments" . }}

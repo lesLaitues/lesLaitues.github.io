@@ -78,3 +78,5 @@ Elles ont été testées à ce jour durant une seule partie dont j’étais MJ, 
 Il y a encore quelques points d’améliorations à apporter. Je voudrais notamment trouver un système à la mort des joueurs qui leur permette de revenir rapidement en jeu, peut-être qu’ils sont simplement évanouis quand les PVs sont à 0 ? Il faudrait aussi peut-être une vraie liste de compétences et de sortilèges de base. Et pour finir, je souhaiterais créer quelques races jouables, histoire d’éviter que tout le monde soit humain, mais sans rester trop rester dans les classiques de l’elfe et du nain.
 
 Avec un peu de chance ceci pourra être un travail collaboratif (notez la mention « domaine public » en bas des règles), alors si vous avez la moindre remarque n’hésitez pas à me contacter par mail grâce au lien présent dans le menu à gauche. C’est prévu d’ajouter des commentaires sur le blog, mais pour le moment voilà.
+
+{{ template "Comments" . }}
