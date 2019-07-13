@@ -1,11 +1,34 @@
 {{ define "Comments" }}
-	<hr>
+	<hr><br>
+	<form id="mozzarella-form" class="pure-form">
+		<fieldset>
+			<div class="pure-g">
+				<textarea name="content" class="pure-u-1" id="mozzarella-content" placeholder="{{ t .Locale "comments.form.content" }}" required></textarea>
+			</div>
+		</fieldset>
+		<fieldset>
+			<div class="pure-g">
+				<div class="pure-u-1 pure-u-md-1-3">
+					<input type="text" name="nickname" class="pure-u-23-24" id="mozzarella-nickname" placeholder="{{ t .Locale "comments.form.nickname" }}" required>
+				</div>
+				<div class="pure-u-1 pure-u-md-1-3">
+					<input type="email" name="email" class="pure-u-23-24" id="mozzarella-email" placeholder="{{ t .Locale "comments.form.email" }}">
+				</div>
+				<div class="pure-u-1 pure-u-md-1-3">
+					<input type="submit" class="pure-u-23-24 pure-button" value="{{ t .Locale "comments.form.submit" }}">
+				</div>
+			</div>
+		</fieldset>
+	</form>
+
+	<section id="mozzarella-thread"></section>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.7.0/qs.min.js"></script>
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 	<script
-		src="https://comments.laitues.net/js/embed.min.js"
-		data-isso="https://comments.laitues.net/"
-		data-isso-id="{{ .Page.Path }}"
-		data-isso-lang="{{ .Locale }}"
-		data-isso-require-author="true"
-	></script>
-	<section id="isso-thread"></section>
+		type="text/javascript"
+		src="https://comments.laitues.net/static/mozzarella.min.js"
+		mozzarella-thread-id="{{ .Page.Path }}"
+		mozzarella-locale="{{ .Locale }}"
+	><p>{{ t .Locale "full_page.footer.no_js" }}</p></script>
 {{ end }}

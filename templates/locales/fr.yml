@@ -14,6 +14,12 @@ fr:
     page_list:
         read_more: Lire la suite…
         empty: Désolé, on dirait qu’il n’y a rien ici.
+    comments:
+        form:
+            nickname: Pseudo
+            email: E-mail
+            content: Votre commentaire
+            submit: Envoyer
     categories:
         page_list_name: "Catégorie : {{$1}}"
     tags:
