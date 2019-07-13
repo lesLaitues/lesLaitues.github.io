@@ -8,6 +8,11 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Idées — Laitues</title>
+		<link rel="stylesheet" type="text/css" href="https://unpkg.com/normalize.css@8.0.1/normalize.css">
+		<link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss@1.0.1/build/forms-min.css">
+		<link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss@1.0.1/build/grids-min.css">
+		<link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss@1.0.1/build/grids-responsive-min.css">
+		<link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss@1.0.1/build/buttons-min.css">
 		<link rel="stylesheet" type="text/css" href="assets/style.css">
 	</head>
 	<body>
@@ -221,15 +226,38 @@
 </ul>
 
 <p>
-	<hr>
+	<hr><br>
+	<form id="mozzarella-form" class="pure-form">
+		<fieldset>
+			<div class="pure-g">
+				<textarea name="content" class="pure-u-1" id="mozzarella-content" placeholder="Votre commentaire" required></textarea>
+			</div>
+		</fieldset>
+		<fieldset>
+			<div class="pure-g">
+				<div class="pure-u-1 pure-u-md-1-3">
+					<input type="text" name="nickname" class="pure-u-23-24" id="mozzarella-nickname" placeholder="Pseudo" required>
+				</div>
+				<div class="pure-u-1 pure-u-md-1-3">
+					<input type="email" name="email" class="pure-u-23-24" id="mozzarella-email" placeholder="E-mail">
+				</div>
+				<div class="pure-u-1 pure-u-md-1-3">
+					<input type="submit" class="pure-u-23-24 pure-button" value="Envoyer">
+				</div>
+			</div>
+		</fieldset>
+	</form>
+
+	<section id="mozzarella-thread"></section>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.7.0/qs.min.js"></script>
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 	<script
-		src="https://comments.laitues.net/js/embed.min.js"
-		data-isso="https://comments.laitues.net/"
-		data-isso-id="/idees.html"
-		data-isso-lang="fr"
-		data-isso-require-author="true"
-	></script>
-	<section id="isso-thread"></section>
+		type="text/javascript"
+		src="https://comments.laitues.net/static/mozzarella.min.js"
+		mozzarella-thread-id="/idees.html"
+		mozzarella-locale="fr"
+	><p>Désolé, vous ne semblez pas avoir activé JavaScript.</p></script>
 </p>
 
 

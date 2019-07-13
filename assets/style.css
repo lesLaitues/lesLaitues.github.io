@@ -315,3 +315,19 @@ blockquote {
 	box-shadow: 0 0 50vw 25vw var(--dark-primary);
 	border: 10px solid var(--accent);
 }
+
+/* mozzarella */
+div.mozzarella-comment {
+	margin-top: 10px;
+}
+
+div.mozzarella-comment-info {
+	padding-bottom: .3em;
+}
+
+span.mozzarella-comment-nickname {
+	color: var(--dark-primary);
+	font-weight: bold;
+}
+
+div.mozzarella-comment-content {}
