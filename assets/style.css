@@ -330,4 +330,9 @@ span.mozzarella-comment-nickname {
 	font-weight: bold;
 }
 
+span.mozzarella-comment-date {
+	color: var(--dark-primary);
+	font-style: italic;
+}
+
 div.mozzarella-comment-content {}
