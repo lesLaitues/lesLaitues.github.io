@@ -317,6 +317,10 @@ blockquote {
 }
 
 /* mozzarella */
+form#mozzarella-form textarea#mozzarella-content {
+	resize: vertical;
+}
+
 div.mozzarella-comment {
 	margin-top: 10px;
 }
