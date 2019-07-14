@@ -2,7 +2,7 @@
 #!date: 2019-06-30
 #!tags: art, writing, tale, romance
 
-# Short Story 01 — The Weeping Ocean
+# Short Story 01 — An Ocean of Love
 “Once upon a time, on an island far away, there lived Love with the Ocean.”
 
 Imagine waking up to the same lovely routine, every day, when unexpectedly, what you cherish most seems to leave.
