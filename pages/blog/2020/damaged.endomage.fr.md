@@ -14,4 +14,4 @@ Bref, voici le lien :
 
 [—> Lire la nouvelle (PDF)](/media/files/endomage.pdf)
 
-Si vous aimez l'anglais, vous pouvez découvrir [la version anglais de cet article](/en/blog/2020/damaged.html).
+Si vous aimez l'anglais, vous pouvez aussi découvrir [la version anglaise de cet article](/en/blog/2020/damaged.html).
